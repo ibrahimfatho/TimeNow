@@ -1,0 +1,68 @@
+* {
+    font-family: "Inter";
+    transition: 0.3s;
+}
+    $mincolor: #1d1b67;
+    $sucolor: #005661;
+    $p-color : #3b60bf;
+    $homecolor: #46ccde;
+    $bgcolor: #cdf9ff;
+    $suptitel: #3b60bf;
+    $whitecolor : #fff;
+
+.navbar-toggler {
+    border: none ;
+    box-shadow: none;
+}
+
+.navbar-toggler:focus {
+    border: none ;
+    box-shadow: none;
+}
+
+#min-btn {
+    background: $mincolor;
+    color: $whitecolor;
+    padding: 5px;
+}
+
+#home-img{
+    background: $homecolor;
+}
+#features{
+    background: $bgcolor;
+}
+#min-text{
+    color: $mincolor;
+    font-weight: bold;
+}
+#suc-text{
+    color: $sucolor;
+    font-weight: bold;
+}
+#p-text{
+    color: $p-color;
+    font-weight: bold;
+}
+#people-img{
+    width: 53px;
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+#ser-box{
+    width: 100%;
+    input{
+        width: 50%;
+    }
+    input:focus{
+        outline: none;
+    }
+    a{
+        width: 55%;
+    }
+}
+
+#toggle{
+    width: 50px;
+}

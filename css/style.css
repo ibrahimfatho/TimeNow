@@ -1,0 +1,73 @@
+* {
+  font-family: "Inter";
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar-toggler {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar-toggler:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#min-btn {
+  background: #1d1b67;
+  color: #fff;
+  padding: 5px;
+}
+
+#home-img {
+  background: #46ccde;
+}
+
+#features {
+  background: #cdf9ff;
+}
+
+#min-text {
+  color: #1d1b67;
+  font-weight: bold;
+}
+
+#suc-text {
+  color: #005661;
+  font-weight: bold;
+}
+
+#p-text {
+  color: #3b60bf;
+  font-weight: bold;
+}
+
+#people-img {
+  width: 53px;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+#ser-box {
+  width: 100%;
+}
+
+#ser-box input {
+  width: 50%;
+}
+
+#ser-box input:focus {
+  outline: none;
+}
+
+#ser-box a {
+  width: 55%;
+}
+
+#toggle {
+  width: 50px;
+}
+/*# sourceMappingURL=style.css.map */
